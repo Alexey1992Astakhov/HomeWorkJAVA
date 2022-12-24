@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 
 public class LambdaDemo3 {
     public static void main(String[] args) {
-        Predicate < Integer > isPredicate = x -> x > 0;
+        Predicate<Integer> isPredicate = x -> x > 0;
         System.out.println(isPredicate.test(5));
         System.out.println(isPredicate.test(-3));
     }
