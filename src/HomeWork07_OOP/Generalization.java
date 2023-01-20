@@ -14,6 +14,7 @@ public class Generalization<T, V, S> {
     }
 
     public void setAge(V age) {
+
         this.age = age;
     }
 
