@@ -1,5 +1,6 @@
-import org.w3c.dom.Node;
+package HomeWork_Algoritms;
 
+import org.w3c.dom.Node;
 import java.awt.*;
 
 public class Tree<V extends Comparable<V>> {
@@ -98,6 +99,7 @@ public class Tree<V extends Comparable<V>> {
         node.left.color = Color.BLACK;
         node.color = Color.RED;
     }
+
 
     private class Node {
         private V value;

@@ -1,3 +1,5 @@
+package HomeWork_Algoritms;
+
 public class HeapSort {
     // Реализация пирамидальной сортировки на Java
     public void sort(int array[]) {
@@ -54,7 +56,7 @@ public class HeapSort {
 
     // Управляющая программа
     public static void main(String args[]) {
-        int array[] = {12, 11, 13, 5, 6, 7};
+        int array[] = {12, 11, 13, 5, 6, 7, 9, -2, 4, 5, 99, 0, -5};
         int n = array.length;
 
         HeapSort ob = new HeapSort();
