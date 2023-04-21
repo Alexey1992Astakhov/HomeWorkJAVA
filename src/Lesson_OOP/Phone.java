@@ -26,7 +26,7 @@ public class Phone {
 
     public Phone(String number, String model, int weight) {
         //this.number = number;
-        //this.model = model;
+        //this.Exception_final_task.model = Exception_final_task.model;
         //this.weight = weight;
         this(number, model); // Вызов консруктора двумя полями внутри конструктора с тремя полями
         this.weight = weight;
@@ -45,7 +45,7 @@ public class Phone {
     public String toString() {
         return "Phone{" +
                 "number='" + number + '\'' +
-                ", model='" + model + '\'' +
+                ", Exception_final_task.model='" + model + '\'' +
                 ", weight=" + weight +
                 '}';
     }
